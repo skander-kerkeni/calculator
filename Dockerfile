@@ -8,6 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 CMD [ "python", "./your-daemon-or-script.py" ]
-or (if you need to use Python 2):
+
 
 
